@@ -33,12 +33,12 @@ This is a login application that demonstrates how to structure the login and log
 
 ### Example of verification email sent after user has registered
 
-![Verification email image]https://raw.githubusercontent.com/Genza999/login-application/master/img/email_verification.PNG "Verification")
+![Verification email image](https://raw.githubusercontent.com/Genza999/login-application/master/img/email_verification.PNG "Verification")
 
 
 ### After verification, user is authenticated and logged In.
 
-![Logged In Image]https://raw.githubusercontent.com/Genza999/login-application/master/img/loggedIn.PNG "Logged In")
+![Logged In Image](https://raw.githubusercontent.com/Genza999/login-application/master/img/loggedIn.PNG "Logged In")
 
 ### Reference
 
