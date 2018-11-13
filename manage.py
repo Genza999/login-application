@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 from app import create_app, db
-from app.models import User, Role
+from app.models import User
 from flask_script import Manager, Shell
 from flask_migrate import Migrate, MigrateCommand
 import logging
@@ -13,7 +13,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = 'True'
 
 
 def make_shell_context():
-    return dict(app=app, db=db, User=User, Role=Role)
+    return dict(app=app, db=db, User=User)
 
 
 manager.add_command("shell", Shell(make_context=make_shell_context))
@@ -41,7 +41,7 @@ def profile(length=25, profile_dir=None):
 def deploy():
     """Run deployment tasks."""
     from flask_migrate import upgrade
-    from app.models import Role, User
+    from app.models import User
 
     # migrate database to latest revision
     upgrade()

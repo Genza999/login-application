@@ -1,5 +1,5 @@
 # login-application
-This is a login application that demonstrates how to structure the login and logout structure into a web application using python and flask modules to perform various beneficial functions.
+This is a login application that demonstrates how to structure the login and logout structure into a web application using python and flask modules to perform various functions.
 
 ### Real Live Demo
 
@@ -21,6 +21,37 @@ This is a login application that demonstrates how to structure the login and log
 * [Flask-Mail](https://github.com/mattupstate/flask-mail) - Sending of authentication-related emails
 * [Flask- Bootstrap](https://github.com/mbr/flask-bootstrap) - HTML templates
 * [Flask-WTF](https://flask-wtf.readthedocs.io/) - Web forms
+
+### Use the command below to build a perfect replica of the virtual environment by downloading all the dependencies used:
+
+```
+pip install -r requirements.txt
+```
+
+### create a migration repository with the init subcommand:
+
+```
+python manage.py db init
+```
+
+### create an automatic migration script
+
+```
+python manage.py db migrate -m "initial migration"
+```
+
+### Once a migration script has been reviewed and accepted, it can be applied to the database using the db upgrade command:
+
+```
+python manage.py db upgrade
+```
+
+### After run the following command to start the web application
+
+```
+python manage.py runserver
+```
+
 
 ### Login page
 
