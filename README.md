@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/Genza999/login-application.svg?branch=master)](https://travis-ci.org/Genza999/login-application)
+[![Coverage Status](https://coveralls.io/repos/github/Genza999/login-application/badge.svg?branch=master)](https://coveralls.io/github/Genza999/login-application?branch=master)
+
+
 # login-application
 This is a login application that demonstrates how to structure the login and logout structure into a web application using python and flask modules to perform various functions.
 
