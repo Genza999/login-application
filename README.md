@@ -3,7 +3,7 @@ This is a login application that demonstrates how to structure the login and log
 
 ### Real Live Demo
 
-[Sayuni API Demo project](https://login-application.herokuapp.com/)
+[Login Application Demo](https://login-application.herokuapp.com/)
 
 ### Dependencies, Packages and extensions used
 
